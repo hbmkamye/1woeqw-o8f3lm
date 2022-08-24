@@ -1,0 +1,76 @@
+export var data = [
+  { shop_Id: null, shop_Name: 'Board', color: '#71AF17' },
+  {
+    shop_Id: '1',
+    shop_Name: 'General Manager',
+    parentID: null,
+    color: '#71AF17',
+  },
+  {
+    shop_Id: '2',
+    shop_Name: 'Human Resource Manager',
+    parentID: '1',
+    color: '#1859B7',
+  },
+  { shop_Id: '3', shop_Name: 'Trainers', parentID: '2', color: '#2E95D8' },
+  {
+    shop_Id: '4',
+    shop_Name: 'Recruiting Team',
+    parentID: '2',
+    color: '#2E95D8',
+  },
+  {
+    shop_Id: '6',
+    shop_Name: 'Design parentID',
+    parentID: '1',
+    color: '#1859B7',
+  },
+  {
+    shop_Id: '7',
+    shop_Name: 'Design Supervisor',
+    parentID: '6',
+    color: '#2E95D8',
+  },
+  {
+    shop_Id: '8',
+    shop_Name: 'Development Supervisor',
+    parentID: '6',
+    color: '#2E95D8',
+  },
+  {
+    shop_Id: '10',
+    shop_Name: 'Operations parentID',
+    parentID: '1',
+    color: '#1859B7',
+  },
+  {
+    shop_Id: '11',
+    shop_Name: 'Statistics Department',
+    parentID: '10',
+    color: '#2E95D8',
+  },
+  {
+    shop_Id: '12',
+    shop_Name: 'Logistics Department',
+    parentID: '10',
+    color: '#2E95D8',
+  },
+  {
+    shop_Id: '16',
+    shop_Name: 'Marketing parentID',
+    parentID: '1',
+    color: '#1859B7',
+  },
+  {
+    shop_Id: '17',
+    shop_Name: 'Overseas Sales parentID',
+    parentID: '16',
+    color: '#2E95D8',
+  },
+  {
+    shop_Id: '20',
+    shop_Name: 'Service Department parentID',
+    parentID: '16',
+    color: '#2E95D8',
+  },
+];
